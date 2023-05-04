@@ -6,10 +6,11 @@ package com.octopus.webshell.handler;
 
 import com.octopus.webshell.service.WebShellService;
 import com.octopus.webshell.utils.WebShellUtils;
-import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.*;
+
+import javax.annotation.Resource;
 
 
 /**
